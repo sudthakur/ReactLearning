@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Maincomp from './Maincomp';
+import UseEffectHooks from './UseEffectHooks';
+import Challenge7useEffect from './Challenge7useEffect';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Maincomp></Maincomp> */}
+    {/* <UseEffectHooks></UseEffectHooks> */}
+    <Challenge7useEffect></Challenge7useEffect>
   </React.StrictMode>,
   document.getElementById('root')
 );
