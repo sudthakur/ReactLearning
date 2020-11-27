@@ -5,6 +5,7 @@ import App from './App';
 import Maincomp from './Maincomp';
 import UseEffectHooks from './UseEffectHooks';
 import Challenge7useEffect from './Challenge7useEffect';
+import Pokemonapi from './Pokemonapi';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -12,7 +13,8 @@ ReactDOM.render(
     {/* <App /> */}
     {/* <Maincomp></Maincomp> */}
     {/* <UseEffectHooks></UseEffectHooks> */}
-    <Challenge7useEffect></Challenge7useEffect>
+    {/* <Challenge7useEffect></Challenge7useEffect> */}
+    <Pokemonapi></Pokemonapi>
   </React.StrictMode>,
   document.getElementById('root')
 );
