@@ -6,6 +6,7 @@ import Maincomp from './Maincomp';
 import UseEffectHooks from './UseEffectHooks';
 import Challenge7useEffect from './Challenge7useEffect';
 import Pokemonapi from './Pokemonapi';
+import {BrowserRouter} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -14,7 +15,10 @@ ReactDOM.render(
     {/* <Maincomp></Maincomp> */}
     {/* <UseEffectHooks></UseEffectHooks> */}
     {/* <Challenge7useEffect></Challenge7useEffect> */}
-    <Pokemonapi></Pokemonapi>
+    {/* <Pokemonapi></Pokemonapi> */}
+    <BrowserRouter>
+      <App></App>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
